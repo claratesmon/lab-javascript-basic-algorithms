@@ -65,9 +65,9 @@ console.log(nameReversed)
 
 const result = hacker1.localeCompare(hacker2)
 
-if (result > 0) {
+if (result < 0) {
     console.log("The driver's name goes first.")
-} else if (result < 0) {
+} else if (result > 0) {
     console.log("Yo, the navigator goes first, definitely.")
 } else if (result = 0) {
     console.log("What?! You both have the same name?")
